@@ -1,9 +1,8 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'ru',
-  base: 'sd-tokens',
+  base: '/sd-tokens/',
   title: "Токены Stable Diffusion",
   description: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion",
   themeConfig: {

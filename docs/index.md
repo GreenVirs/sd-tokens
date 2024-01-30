@@ -4,22 +4,21 @@ layout: home
 
 hero:
   name: "Токены Stable Diffusion"
-  text: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion"
-  tagline: My great project tagline
+  text: "Познакомьтесь с токенами и улучши свои промты"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Камера
+      link: /camera
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Одежда
+      link: /cloth
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#features:
+#  - title: Feature A
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: Feature B
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: Feature C
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
