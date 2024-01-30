@@ -12,3 +12,7 @@
 - Выполнить ``` npm run docs:dev ``` после запуска скрипта сайт будет доступен по адресу [http://localhost:5173/](http://localhost:5173/)
 
 Для всех последующих запусков будет достаточно команды ``` npm run docs:dev ```
+
+Ваши идеи для вы можете оставить тут https://github.com/GreenVirs/sd-tokens/issues
+
+Так же принимаются Pull request https://github.com/GreenVirs/sd-tokens/pulls
