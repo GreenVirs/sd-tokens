@@ -6,11 +6,14 @@ export default defineConfig({
   title: "Токены Stable Diffusion",
   description: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Камера', link: '/camera' },
-      { text: 'Одежда', link: '/cloth' },
+      { text: 'Начало работы', link: '/getting-started/introduction' },
+      { text: 'Содержание', link: '/contents' },
     ],
 
     sidebar: [
@@ -19,10 +22,11 @@ export default defineConfig({
         link: '/camera',
         collapsed: true,
         items: [
-          { text: 'Жанр фотографии', link: '/camera/genres' },
+          { text: 'Углы камеры', link: '/camera/angle' },
           { text: 'Положение камеры', link: '/camera/position' },
           { text: 'Расстояние до объекта', link: '/camera/distance' },
           { text: 'Фокус', link: '/camera/focus' },
+          { text: 'Жанр фотографии', link: '/camera/genres' },
         ]
       },
       {

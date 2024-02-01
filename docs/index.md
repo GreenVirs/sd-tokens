@@ -7,10 +7,10 @@ hero:
   text: "Познакомьтесь с токенами и улучши свои промты"
   actions:
     - theme: brand
-      text: Камера
-      link: /camera
+      text: Начало работы
+      link: /getting-started/introduction
     - theme: alt
-      text: Одежда
+      text: Содержание
       link: /cloth
 
 #features:
