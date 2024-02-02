@@ -7,8 +7,24 @@ export default defineConfig({
   description: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion",
   themeConfig: {
     search: {
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Поиск',
+            buttonAriaLabel: 'Поиск'
+          }
+        }
+      },
       provider: 'local'
     },
+    outline: {
+      label: 'На этой странице'
+    },
+    docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
+    returnToTopLabel: 'Вернуться наверх',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
@@ -19,13 +35,13 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Камера',
-        link: '/camera',
         collapsed: true,
         items: [
           { text: 'Углы камеры', link: '/camera/angle' },
           { text: 'Положение камеры', link: '/camera/position' },
           { text: 'Расстояние до объекта', link: '/camera/distance' },
           { text: 'Фокус', link: '/camera/focus' },
+          { text: 'Симметрия', link: '/camera/symmetry' },
           { text: 'Жанр фотографии', link: '/camera/genres' },
         ]
       },
@@ -41,5 +57,18 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GreenVirs/sd-tokens' }
     ]
+  },
+  vite: {
+    resolve: {
+      alias: {
+        '@': '../../'
+      }
+    },
+    server: {
+      host: '0.0.0.0'
+    },
+    preview: {
+      port: 5173
+    }
   }
 })
