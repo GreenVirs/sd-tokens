@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import VSlider from "@/components/VSlider.vue";
+import { withBase } from 'vitepress';
+const base = withBase('./position');
 </script>
 
 # Положение камеры
@@ -9,9 +11,9 @@ import VSlider from "@/components/VSlider.vue";
 Тоже самое что и [high angle](./angle.md#high-angle---высокий-угол), но может поднять камеру выше. Не ломает геометрию объектов
 
 <VSlider :images="[
-'./position/00035-3813385208.png',
-'./position/00036-3813385209.png',
-'./position/00037-3813385210.png'
+`${base}/00035-3813385208.png`,
+`${base}/00036-3813385209.png`,
+`${base}/00037-3813385210.png`
 ]" alt="bird eyes view" />
 
 ## worm's eye view - Вид снизу вверх 
