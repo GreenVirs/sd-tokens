@@ -53,7 +53,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GreenVirs/sd-tokens' }
     ]
