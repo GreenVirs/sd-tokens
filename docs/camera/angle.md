@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import VSlider from "@/components/VSlider.vue";
-import { withBase } from 'vitepress';
-const base = withBase('./angle');
+import VImg from "@/components/VImg.vue";
 </script>
 
 # Углы обзора
@@ -10,13 +9,13 @@ const base = withBase('./angle');
 
 Фотография сделана снизу вверх, что может придать объекту величественности или создать ощущение мощи и власти. Очень хорошо подходит для генерации архитектуры
 
-<VSlider :images="[
-`./angle/00000-3846148111.png`,
-`./angle/00002-3846148113.png`,
-`./angle/00003-3846148114.png`,
-`./angle/00012-2650699685.png`,
-`./angle/00015-2650699688.png`
-]" alt="low angle" />
+<VSlider>
+    <VImg src="./angle/00000-3846148111.png" alt="low angle" />
+    <VImg src="./angle/00002-3846148113.png" alt="low angle" />
+    <VImg src="./angle/00003-3846148114.png" alt="low angle" />
+    <VImg src="./angle/00012-2650699685.png" alt="low angle" />
+    <VImg src="./angle/00015-2650699688.png" alt="low angle" />
+</VSlider>
 
 ## high angle - Высокий угол
 

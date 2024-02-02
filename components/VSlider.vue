@@ -1,15 +1,8 @@
-<script setup lang="ts">
-import { withBase} from 'vitepress';
-defineProps<{
-  alt: string
-  images: string[]
-}>()
 
-</script>
 
 <template>
   <div :class="$style['container']">
-    <img v-for="image in images" :class="$style['img']" :src="withBase(image)" :alt="alt" />
+    <slot />
   </div>
 </template>
 <style module>
