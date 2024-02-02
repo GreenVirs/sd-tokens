@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import VSlider from "@/components/VSlider.vue";
-import VImg from "@/components/VImg.vue";
+import VImg from "@/components/VImg.vue"; 
+import lowAngleImg1 from './angle/00000-3846148111.png';
+import lowAngleImg2 from './angle/00002-3846148113.png';
+import lowAngleImg3 from './angle/00003-3846148114.png';
+import lowAngleImg4 from './angle/00012-2650699685.png';
+import lowAngleImg5 from './angle/00015-2650699688.png';
 </script>
 
 # Углы обзора
@@ -9,24 +14,9 @@ import VImg from "@/components/VImg.vue";
 
 Фотография сделана снизу вверх, что может придать объекту величественности или создать ощущение мощи и власти. Очень хорошо подходит для генерации архитектуры
 
-<VSlider>
-    <VImg src="./angle/00000-3846148111.png" alt="low angle" />
-    <VImg src="./angle/00002-3846148113.png" alt="low angle" />
-    <VImg src="./angle/00003-3846148114.png" alt="low angle" />
-    <VImg src="./angle/00012-2650699685.png" alt="low angle" />
-    <VImg src="./angle/00015-2650699688.png" alt="low angle" />
-</VSlider>
-
 ## high angle - Высокий угол
 
 Фотография сделана сверху вниз, что может изменить восприятие размера и важности объекта, а также создать ощущение уязвимости или подчиненности. Очень хорошо подходит для генерации видов природы с высоты птичьего полета (смотри так же [bird eyes view](./position.md#bird-eyes-view---высота-птичьего-полета)). При использовании с объектами может ломать геометрию
-
-<VSlider :images="[
-`./angle/00015-82260849.png`,
-`./angle/00016-82260850.png`,
-`./angle/00017-82260851.png`,
-`./angle/00018-82260852.png`,
-]" alt="high angle" />
 
 ## tilt angle - Угол тильта
 

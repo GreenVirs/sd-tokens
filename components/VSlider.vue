@@ -1,5 +1,8 @@
+<script setup lang="ts">
+import { useData } from "vitepress";
 
-
+const {} = useData();
+</script>
 <template>
   <div :class="$style['container']">
     <slot />
