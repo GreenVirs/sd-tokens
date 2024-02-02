@@ -1,1 +1,0 @@
-import{_ as e,o as n,c as o,r as c,n as t}from"./framework.LNvNYXX1.js";const r="_container_1y15v_3",a="_img_1y15v_15",l={container:r,img:a},_={};function i(s,m){return n(),o("div",{class:t(s.$style.container)},[c(s.$slots,"default")],2)}const d={$style:l},u=e(_,[["render",i],["__cssModules",d]]);export{u as V};
