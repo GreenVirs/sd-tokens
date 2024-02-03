@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
     "predeploy": "npm run docs:build",
-    "deploy": "gh-pages -d docs/.vitepress/dist"
+    "deploy": "gh-pages -d .vitepress/dist"
   },
   "homepage": "./",
   "dependencies": {

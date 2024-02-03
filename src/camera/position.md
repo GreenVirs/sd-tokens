@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import VSlider from "@/components/VSlider.vue";
-import { withBase } from 'vitepress';
-const base = withBase('./position');
-</script>
-
 # Положение камеры
 
 ## bird's eye view - высота птичьего полета

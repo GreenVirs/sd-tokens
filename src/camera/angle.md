@@ -1,11 +1,5 @@
 <script setup lang="ts">
-import VSlider from "@/components/VSlider.vue";
-import VImg from "@/components/VImg.vue"; 
-import lowAngleImg1 from './angle/00000-3846148111.png';
-import lowAngleImg2 from './angle/00002-3846148113.png';
-import lowAngleImg3 from './angle/00003-3846148114.png';
-import lowAngleImg4 from './angle/00012-2650699685.png';
-import lowAngleImg5 from './angle/00015-2650699688.png';
+
 </script>
 
 # Углы обзора
@@ -13,6 +7,8 @@ import lowAngleImg5 from './angle/00015-2650699688.png';
 ## low angle - Низкий угол
 
 Фотография сделана снизу вверх, что может придать объекту величественности или создать ощущение мощи и власти. Очень хорошо подходит для генерации архитектуры
+
+![low angle](/image/angle/00000-3846148111.png)
 
 ## high angle - Высокий угол
 
