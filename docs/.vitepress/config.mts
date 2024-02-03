@@ -61,7 +61,7 @@ export default defineConfig({
     },
     editLink: {
       text: 'Исправить страницу',
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/:path'
+      pattern: 'https://github.com/GreenVirs/sd-tokens/edit/main/docs/:path'
     }
   },
   vite: {

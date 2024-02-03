@@ -1,3 +1,15 @@
-# Содержание
+---
+title: Содержание
+sidebar: false
+page: true
+footer: false
+aside: false
+layout: page
+editLink: true
+---
 
-Тут пока ничего нет, но скоро появится. Пока вы можете выбрать нужный раздел через боковое меню
+<script setup>
+import ContentsIndex from './contents/ContentsIndex.vue'
+</script>
+
+<ContentsIndex />
