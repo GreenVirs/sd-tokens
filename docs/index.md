@@ -11,7 +11,7 @@ hero:
       link: /getting-started/introduction
     - theme: alt
       text: Содержание
-      link: /cloth
+      link: /contents
 
 #features:
 #  - title: Feature A
