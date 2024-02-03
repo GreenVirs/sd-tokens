@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import VSlider from '@/components/VSlider.vue';
 </script>
 
 # Углы обзора
@@ -7,8 +7,7 @@
 ## low angle - Низкий угол
 
 Фотография сделана снизу вверх, что может придать объекту величественности или создать ощущение мощи и власти. Очень хорошо подходит для генерации архитектуры
-
-![low angle](/image/angle/00000-3846148111.png)
+<VSlider :images="['/image/angle/00011-591826535.png']" alt="low angle" />
 
 ## high angle - Высокий угол
 

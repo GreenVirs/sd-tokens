@@ -1,11 +1,15 @@
 <script setup lang="ts">
-import { useData } from "vitepress";
+import {withBase} from "vitepress";
 
-const {} = useData();
+defineProps<{
+  alt: string
+  images: string[]
+}>()
 </script>
+
 <template>
   <div :class="$style['container']">
-    <slot />
+    <img v-for="image in images" :class="$style['img']" :src="withBase(image)" :alt="alt" />
   </div>
 </template>
 <style module>

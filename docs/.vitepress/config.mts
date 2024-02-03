@@ -4,7 +4,6 @@ export default defineConfig({
   lang: 'ru',
   base: '/sd-tokens/',
   title: "Токены Stable Diffusion",
-  srcDir: 'src',
   description: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion",
   themeConfig: {
     search: {
@@ -61,7 +60,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@': '../'
+        '@/': '../../'
       }
     },
     server: {
