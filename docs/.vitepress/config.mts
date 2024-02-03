@@ -55,7 +55,14 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GreenVirs/sd-tokens' }
-    ]
+    ],
+    lastUpdated: {
+      text: 'Обновлено',
+    },
+    editLink: {
+      text: 'Исправить страницу',
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/:path'
+    }
   },
   vite: {
     resolve: {
