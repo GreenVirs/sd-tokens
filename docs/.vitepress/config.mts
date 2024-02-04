@@ -42,6 +42,7 @@ export default defineConfig({
           { text: 'Расстояние до объекта', link: '/camera/distance' },
           { text: 'Фокус', link: '/camera/focus' },
           { text: 'Симметрия', link: '/camera/symmetry' },
+          { text: 'Сцены', link: '/camera/scenes' },
           { text: 'Жанр фотографии', link: '/camera/genres' },
         ]
       },
