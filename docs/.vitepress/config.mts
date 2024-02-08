@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ru',
   base: '/sd-tokens/',
-  title: "Токены Stable Diffusion",
+  title: "Промты для Stable Diffusion",
   head: [
     [
         'script',
@@ -22,7 +22,7 @@ export default defineConfig({
    });`
     ]
   ],
-  description: "Данный сайт предназначен для знакомства со стандартными токенами, которые вы можете найти в большинстве моделей для Stable Diffusion",
+  description: "С помощью нашего сайта вы можете писать правильные промты для stable diffusion",
   themeConfig: {
     search: {
       options: {
@@ -62,6 +62,13 @@ export default defineConfig({
           { text: 'Симметрия', link: '/camera/symmetry' },
           { text: 'Сцены', link: '/camera/scenes' },
           { text: 'Жанр фотографии', link: '/camera/genres' },
+        ]
+      },
+      {
+        text: 'Тело',
+        collapsed: true,
+        items: [
+          { text: 'Телосложение', link: '/body/body-type' },
         ]
       },
       {

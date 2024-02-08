@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Токены Stable Diffusion"
-  text: "Познакомьтесь с токенами и улучши свои промты"
+  name: Промты для Stable Diffusion
+  tagline: Српавочник по токенам для Stable Diffusion
   actions:
     - theme: brand
       text: Начало работы
