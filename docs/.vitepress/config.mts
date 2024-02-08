@@ -68,7 +68,17 @@ export default defineConfig({
         text: 'Одежда',
         collapsed: true,
         items: [
+          { text: 'Женская одежда', link: '/cloth/womens-clothing' },
           { text: 'Платья', link: '/cloth/dresses' },
+        ]
+      },
+      {
+        text: 'Прически',
+        collapsed: true,
+        items: [
+          { text: 'Общий стиль', link: '/hairstyles/common' },
+          { text: 'Мужские прически', link: '/hairstyles/male' },
+          { text: 'Женские прически', link: '/hairstyles/female' },
         ]
       }
     ],
